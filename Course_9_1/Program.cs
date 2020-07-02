@@ -16,6 +16,9 @@ namespace Course_9_1
             };
             Console.WriteLine(order);
 
+            string txt = OrderStatus.PendingPayment.ToString();
+            Console.WriteLine(txt);
+
         }
     }
 }
